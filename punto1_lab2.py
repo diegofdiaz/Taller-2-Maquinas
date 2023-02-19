@@ -16,4 +16,5 @@ while (desfaseactual+1)<180:
   wtotal=wtotal+w
   desfaseactual=desfaseactual+desfase
 plt.plot(t, wtotal)
+plt.grid()
 plt.show()

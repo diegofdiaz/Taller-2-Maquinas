@@ -22,7 +22,7 @@ for i in range(len(t)):
         x=np.pi
     else :
         x=0
-    ax2.scatter([x,0],[abs(k*np.cos(w*t2)), 0])
+    ax2.arrow([x,0],[abs(k*np.cos(w*t2)), 0])
     ax2.set_ylim(0,15)
     plt.ion()
     plt.show()
